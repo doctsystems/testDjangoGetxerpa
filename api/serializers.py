@@ -4,6 +4,7 @@ from .models import Equipo, Jugador
 
 from django.db.models import Sum
 
+
 class JugadorSerializer(serializers.ModelSerializer):
     # serializador para el modelo Jugador
 

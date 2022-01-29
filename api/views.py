@@ -16,7 +16,7 @@ from api.serializers import EquipoSerializer, JugadorSerializer
 def api_root(request, format=None):
     return Response({
         'equipos': reverse('api:equipos', request=request, format=format),
-        'jugadores': reverse('api:players', request=request, format=format)
+        'jugadores': reverse('api:jugadores', request=request, format=format)
     })
 
 
